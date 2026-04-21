@@ -3,8 +3,8 @@ class Vrg < Formula
 
   desc "Command-line interface for VergeOS infrastructure management"
   homepage "https://github.com/verge-io/vrg"
-  url "https://files.pythonhosted.org/packages/7d/01/cb2991146f085afb9d587d93684bc5e0ba19e918301865ee63449165fd5e/vrg-1.0.1.tar.gz"
-  sha256 "8726f3c1b3d4e9c48364f42864b13250fe80f53115c53423a0bca5238c8e49fc"
+  url "https://files.pythonhosted.org/packages/50/5c/01ac53ab688692b3027de2920652377370758c3356686bc86c1736e69060/vrg-1.1.0.tar.gz"
+  sha256 "18536337efb7025543dbef7cd5f0743f4916593eed7cb04e84b2985a43e02f17"
   license "Apache-2.0"
 
   depends_on "python@3.12"
@@ -35,8 +35,8 @@ class Vrg < Formula
   end
 
   resource "idna" do
-    url "https://files.pythonhosted.org/packages/6f/6d/0703ccc57f3a7233505399edb88de3cbd678da106337b9fcde432b65ed60/idna-3.11.tar.gz"
-    sha256 "795dafcc9c04ed0c1fb032c2aa73654d8e8c5023a7df64a53f39190ada629902"
+    url "https://files.pythonhosted.org/packages/22/12/2948fbe5513d062169bd91f7d7b1cd97bc8894f32946b71fa39f6e63ca0c/idna-3.12.tar.gz"
+    sha256 "724e9952cc9e2bd7550ea784adb098d837ab5267ef67a1ab9cf7846bdbdd8254"
   end
 
   resource "jsonschema" do
@@ -65,8 +65,8 @@ class Vrg < Formula
   end
 
   resource "pyvergeos" do
-    url "https://files.pythonhosted.org/packages/da/65/8d579e9ad9120751370fd5e28bd318312af1428cca28d90a85d331c234b1/pyvergeos-1.1.1.tar.gz"
-    sha256 "1378a8af7601250235c0b9ed0382f190830b26b028cae43cc60e4d0e856e6f1d"
+    url "https://files.pythonhosted.org/packages/51/f6/f2cae6a8f00baac24190ab73b308f7e5aa38de8fa49e136e50a66b30a6be/pyvergeos-1.2.2.tar.gz"
+    sha256 "a51a98bf9a246b0493f1aadcf4ee05aeaba468d868709767d19f22af73dc1e08"
   end
 
   resource "pyyaml" do
@@ -85,8 +85,8 @@ class Vrg < Formula
   end
 
   resource "rich" do
-    url "https://files.pythonhosted.org/packages/e9/67/cae617f1351490c25a4b8ac3b8b63a4dda609295d8222bad12242dfdc629/rich-14.3.4.tar.gz"
-    sha256 "817e02727f2b25b40ef56f5aa2217f400c8489f79ca8f46ea2b70dd5e14558a9"
+    url "https://files.pythonhosted.org/packages/c0/8f/0722ca900cc807c13a6a0c696dacf35430f72e0ec571c4275d2371fca3e9/rich-15.0.0.tar.gz"
+    sha256 "edd07a4824c6b40189fb7ac9bc4c52536e9780fbbfbddf6f1e2502c31b068c36"
   end
 
   resource "rpds-py" do

@@ -3,11 +3,12 @@ class Vrg < Formula
 
   desc "Command-line interface for VergeOS infrastructure management"
   homepage "https://github.com/verge-io/vrg"
-  url "https://files.pythonhosted.org/packages/50/5c/01ac53ab688692b3027de2920652377370758c3356686bc86c1736e69060/vrg-1.1.0.tar.gz"
-  sha256 "18536337efb7025543dbef7cd5f0743f4916593eed7cb04e84b2985a43e02f17"
+  url "https://files.pythonhosted.org/packages/3f/c9/c9fae0d57dad13c601947d19d60c9e126ae572c540a76b353bc9c1857b43/vrg-1.1.1.tar.gz"
+  sha256 "4ac3597b5985b95edf6ffb428be793a941188c1213c69fa6759ab1177a3afc5f"
   license "Apache-2.0"
 
   depends_on "python@3.12"
+  depends_on "rust" => :build
 
   resource "annotated-doc" do
     url "https://files.pythonhosted.org/packages/57/ba/046ceea27344560984e26a590f90bc7f4a75b06701f653222458922b558c/annotated_doc-0.0.4.tar.gz"
@@ -20,8 +21,8 @@ class Vrg < Formula
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/af/2d/7bf41579a8986e348fa033a31cdd0e4121114f6bce2457e8876010b092dd/certifi-2026.2.25.tar.gz"
-    sha256 "e887ab5cee78ea814d3472169153c2d12cd43b14bd03329a39a9c6e2e80bfba7"
+    url "https://files.pythonhosted.org/packages/25/ee/6caf7a40c36a1220410afe15a1cc64993a1f864871f698c0f93acb72842a/certifi-2026.4.22.tar.gz"
+    sha256 "8d455352a37b71bf76a79caa83a3d6c25afee4a385d632127b6afb3963f1c580"
   end
 
   resource "charset-normalizer" do
